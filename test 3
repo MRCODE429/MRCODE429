@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Business Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>My Business</h1>
+<p>This is my business website.</p>
+<p>We offer a variety of products and services.</p>
+<p>Please contact us for more information.</p>
+</body>
+</html>
