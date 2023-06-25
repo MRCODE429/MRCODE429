@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrew Phone Solutions</title>
+</head>
+<body>
+  <h1>Welcome to My Business Website!</h1>
+  <p>We are a company that provides <b>high-quality</b> services to our customers. We are committed to providing our customers with the best possible experience.</p>
+  <p>If you are looking for a company that you can trust, then you have come to the right place. We are here to help you with all of your needs.</p>
+  <p>Please visit our <a href="andrewphonesolutions.com">services page</a> to learn more about what we offer.</p>
+  <p>Thank you for your interest in our business!</p>
+</body>
+</html>
