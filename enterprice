@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrew Phone Solutions</title>
+  <style>
+    /* CSS styles for the webpage */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Welcome to Andrew Phone Solution</h1>
+      <p>This is the homepage of our business website.</p>
+    </section>
+
+    <section id="about">
+      <h2>To ensure our clients requirements are meet with satisfaction </h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget condimentum libero, sit amet ullamcorper metus.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Screen and Battery Replacement</li>
+        <li>Water Drainage</li>
+        <li>Software update</li>
+        <li>Phone diagnosis</li>
+        <li>Charging port replacement</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>+254 715 847894</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="Andrew Mundia" >
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="mundiaandrew001@gmail.com" >
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="@whatsapp +254715847894" ></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Andrew Phone Solution. All rights reserved.</p>
+  </footer>
+</body>
+</html>
