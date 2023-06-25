@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrew phone solutions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Welcome to our Business</h1>
+      <p>This is the homepage of our business website.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget condimentum libero, sit amet ullamcorper metus.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Service 1:screen replacement</li>
+        <li>Service 2:water drainage</li>
+        <li>Service 3:battery and charging port replacement</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Andrew Phone Solutions</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">mundiaandrew001@gmail.com:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Your Business. All rights reserved.</p>
+  </footer>
+</body>
+</html>
