@@ -13,9 +13,10 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#services">Screen replacement,Water drainage,battery and Charging port replacement</a></li>
-                <li><a href="#portfolio"><img class="n9wygc" alt="Header image for the site" src="https://lh3.googleusercontent.com/p/AF1QipOgTeBEZ1dtTP3FldFdDj3RPAUwYcIyfv8ZBSQ=w1080-h608-p-k-no-v0" data-atf="true" data-iml="1871943.400000006"></a></li>
+                <li><a href="#services">Phone restoration</a></li>
+                <li><a href="#portfolio"><img class="n9wygc" alt="Header image for the site" src="https://lh3.googleusercontent.com/p/AF1QipOgTeBEZ1dtTP3FldFdDj3RPAUwYcIyfv8ZBSQ=w1080-h608-p-k-no-v0" data-atf="true" data-iml="1871943.400000006"></a></li></a></li>
                 <li><a href="#contact">+254715847894</a></li>
+                <li><a href="#" id="external-link"> 'https://www.andrewphonesolutions.com'</a></li>
             </ul>
         </nav>
     </header>
@@ -26,8 +27,12 @@
     </section>
     
     <section id="services">
-        <h2>Phone Restoration</h2>
-        <p>At Andrew Phone solution we ensure ou service need are meet and fullfilled with efficiency</p>
+        <h2>Our Services</h2>
+        <ul>
+            <li>Screen Replacement</li>
+            <li>Water Drainage</li>
+            <li>Battery and Charging Port Replacement</li>
+        </ul>
     </section>
     
     <section id="portfolio">
@@ -37,11 +42,11 @@
     
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>@whatsapp254715847894</p>
+        <p>Provide contact information and a contact form for inquiries.</p>
         <form id="contact-form">
-            <input type="text" placeholder="Name"Andrew Mundia >
-            <input type="email" placeholder="Email" mundiaandrew001@gmail.com>
-            <textarea placeholder="Message"mundiaandrew001@gmail.com ></textarea>
+            <input type="text" placeholder="Name" Andrew Mundia>
+            <input type="email" placeholder="Email"  mundiaandrew001@gmail.com>
+            <textarea placeholder="Message" @whatsapp254715847894></textarea>
             <button type="submit">Send Message</button>
         </form>
     </section>
@@ -58,6 +63,13 @@
             // You can use AJAX or other methods to send the form data to a server
             alert('Thank you for your message!');
             this.reset(); // Reset the form fields
+        });
+
+        // Add event listener to external link
+        document.getElementById('external-link').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            // Add your code to redirect to the external page
+            window.location.href = 'https://www.andrewphonesolutions.com'; // Replace with your actual external page URL
         });
     </script>
 </body>
