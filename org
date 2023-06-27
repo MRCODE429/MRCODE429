@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Andrew Phone Solutions</title>
+    <style>
+        /* CSS styles for the website */
+        /* ... Add your custom CSS styles here ... */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Andrew Phone Solutions</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Screen replacement,Water drainage,battery and Charging port replacement</a></li>
+                <li><a href="#portfolio"><img class="n9wygc" alt="Header image for the site" src="https://lh3.googleusercontent.com/p/AF1QipOgTeBEZ1dtTP3FldFdDj3RPAUwYcIyfv8ZBSQ=w1080-h608-p-k-no-v0" data-atf="true" data-iml="1871943.400000006"></a></li>
+                <li><a href="#contact">+254715847894</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to Andrew Phone Solutions</h2>
+        <p>Introduce your business and highlight key features or benefits.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Phone Restoration</h2>
+        <p>At Andrew Phone solution we ensure ou service need are meet and fullfilled with efficiency</p>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Showcase your previous work or projects to build credibility.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>@whatsapp254715847894</p>
+        <form id="contact-form">
+            <input type="text" placeholder="Name"Andrew Mundia >
+            <input type="email" placeholder="Email" mundiaandrew001@gmail.com>
+            <textarea placeholder="Message"mundiaandrew001@gmail.com ></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Andrew Phone Solutions. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript code for website interactivity
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+            // Add your code to handle form submission here
+            // You can use AJAX or other methods to send the form data to a server
+            alert('Thank you for your message!');
+            this.reset(); // Reset the form fields
+        });
+    </script>
+</body>
+</html>
