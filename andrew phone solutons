@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:MediumSeaGreen;">
+
+<head>
+    <style>
+    h1 {
+        color: blue;
+        font-family: verdana;
+        font-size: 300%;
+    }
+    p {
+        color: red;
+        font-family: courier;
+        font-size: 160%;
+    }
+</style>
+</head>
+<h1 style="background-color:#ff6347;">...</h1>
+<h1>MY TRY</h1>
+<p>So to upload a image we have to store them in the same file </p>
+<a href="https://www.andrewphonesolutions.com">this is a link </a>
+<br>
+<img src="bliss2.jpg" alt="Girl with a jacket" width="1080" height="900">
+
+</body>
+</html>
