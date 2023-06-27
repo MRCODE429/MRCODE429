@@ -1,13 +1,37 @@
+- 👋 Hi, I’m @MRCODE429
+- 👀 I’m interested in ...software engeneering
+- 🌱 I’m currently learning ...basic coding
+- 💞️ I’m looking to collaborate on ...software development
+- 📫 How to reach me ...contact email jamesgunter429@gmail.com
+
+<!---
+MRCODE429/MRCODE429 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
 <!DOCTYPE html>
 <html>
+<body style="background-color:MediumSeaGreen;">
+
 <head>
-<title>My Business Website</title>
-<link rel="stylesheet" href="style.css">
+    <style>
+    h1 {
+        color: blue;
+        font-family: verdana;
+        font-size: 300%;
+    }
+    p {
+        color: red;
+        font-family: courier;
+        font-size: 160%;
+    }
+</style>
 </head>
-<body>
-<h1>My Business</h1>
-<p>This is my business website.</p>
-<p>We offer a variety of products and services.</p>
-<p>Please contact us for more information.</p>
+<h1 style="background-color:#ff6347;">...</h1>
+<h1>MY TRY</h1>
+<p>So to upload a image we have to store them in the same file </p>
+<a href="https://www.andrewphonesolutions.com">this is a link </a>
+<br>
+<img src="bliss2.jpg" alt="Girl with a jacket" width="1080" height="900">
+
 </body>
 </html>
